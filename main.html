@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelf Space Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <input type="number" id="shelfWidth" placeholder="Shelf width (px)" />
+        <input type="number" id="shelfHeight" placeholder="Shelf height (px)" />
+        <button onclick="setupShelf()">Set Shelf Dimensions</button><br>
+        <input type="number" id="boxWidth" placeholder="Box width (px)" />
+        <input type="number" id="boxHeight" placeholder="Box height (px)" />
+        <button onclick="addCustomBox()">Add Custom Box</button>
+    </div>
+    <div id="shelf"></div>
+    <script src="script.js"></script>
+</body>
+</html>
